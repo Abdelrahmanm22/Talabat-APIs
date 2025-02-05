@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35521.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Talabat.APIs", "Talabat.APIs\Talabat.APIs.csproj", "{C0322433-E242-4495-B751-F3B4382682FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Talabat.Core", "Talabat.Core\Talabat.Core.csproj", "{C9832321-553B-4B94-BAE2-A023B6CE017D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Talabat.Repository", "Talabat.Repository\Talabat.Repository.csproj", "{B17EDC65-DB15-4313-867D-AD2E325D0D47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Talabat.Service", "Talabat.Service\Talabat.Service.csproj", "{CC2D1462-465D-4BC1-9E16-85061762C719}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C0322433-E242-4495-B751-F3B4382682FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0322433-E242-4495-B751-F3B4382682FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0322433-E242-4495-B751-F3B4382682FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0322433-E242-4495-B751-F3B4382682FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9832321-553B-4B94-BAE2-A023B6CE017D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9832321-553B-4B94-BAE2-A023B6CE017D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9832321-553B-4B94-BAE2-A023B6CE017D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9832321-553B-4B94-BAE2-A023B6CE017D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B17EDC65-DB15-4313-867D-AD2E325D0D47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B17EDC65-DB15-4313-867D-AD2E325D0D47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B17EDC65-DB15-4313-867D-AD2E325D0D47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B17EDC65-DB15-4313-867D-AD2E325D0D47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC2D1462-465D-4BC1-9E16-85061762C719}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC2D1462-465D-4BC1-9E16-85061762C719}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC2D1462-465D-4BC1-9E16-85061762C719}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC2D1462-465D-4BC1-9E16-85061762C719}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
