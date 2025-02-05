@@ -1,0 +1,12 @@
+D:\My Career\ASP.NET\MyProjects\Talabat.Solution\Talabat.Core\bin\Debug\net6.0\Talabat.Core.deps.json
+D:\My Career\ASP.NET\MyProjects\Talabat.Solution\Talabat.Core\bin\Debug\net6.0\Talabat.Core.dll
+D:\My Career\ASP.NET\MyProjects\Talabat.Solution\Talabat.Core\bin\Debug\net6.0\Talabat.Core.pdb
+D:\My Career\ASP.NET\MyProjects\Talabat.Solution\Talabat.Core\obj\Debug\net6.0\Talabat.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\My Career\ASP.NET\MyProjects\Talabat.Solution\Talabat.Core\obj\Debug\net6.0\Talabat.Core.AssemblyInfoInputs.cache
+D:\My Career\ASP.NET\MyProjects\Talabat.Solution\Talabat.Core\obj\Debug\net6.0\Talabat.Core.AssemblyInfo.cs
+D:\My Career\ASP.NET\MyProjects\Talabat.Solution\Talabat.Core\obj\Debug\net6.0\Talabat.Core.csproj.CoreCompileInputs.cache
+D:\My Career\ASP.NET\MyProjects\Talabat.Solution\Talabat.Core\obj\Debug\net6.0\Talabat.Core.sourcelink.json
+D:\My Career\ASP.NET\MyProjects\Talabat.Solution\Talabat.Core\obj\Debug\net6.0\Talabat.Core.dll
+D:\My Career\ASP.NET\MyProjects\Talabat.Solution\Talabat.Core\obj\Debug\net6.0\refint\Talabat.Core.dll
+D:\My Career\ASP.NET\MyProjects\Talabat.Solution\Talabat.Core\obj\Debug\net6.0\Talabat.Core.pdb
+D:\My Career\ASP.NET\MyProjects\Talabat.Solution\Talabat.Core\obj\Debug\net6.0\ref\Talabat.Core.dll

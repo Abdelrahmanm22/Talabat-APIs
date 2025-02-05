@@ -30,6 +30,7 @@ namespace Talabat.Repository.Configuration
 
             builder.Property(p => p.Description).IsRequired();
             builder.Property(p=>p.PictureURL).IsRequired();
+            builder.Property(p=>p.Price).HasColumnType("decimal(18,2)");
         }
     }
 }
