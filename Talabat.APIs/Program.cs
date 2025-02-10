@@ -5,11 +5,11 @@ namespace Talabat.APIs
 {
     public class Program
     {
-        public static void Main(string[] args)
+        public static async Task Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            // Add services to the container.
+            #region Configure Services Add services to the container.
 
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -20,9 +20,34 @@ namespace Talabat.APIs
                 Options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
             });
 
+            #endregion
+
             var app = builder.Build();
 
-            // Configure the HTTP request pipeline.
+            #region Update-Database
+            //AppDbContext dbContext = new AppDbContext(); //invalid
+            //await dbContext.Database.MigrateAsync();
+            using var Scope = app.Services.CreateScope(); //group of services that lifetime scooped
+            var Services = Scope.ServiceProvider; //catch services its self
+            var LoggerFactory = Services.GetRequiredService<ILoggerFactory>();
+            try
+            {
+
+                var DbContext = Services.GetRequiredService<AppDbContext>(); //ASK CLR for Creating Object From DbContext Explicitly
+                await DbContext.Database.MigrateAsync(); //Update - Database
+            }
+            catch (Exception ex) {
+                var Logger = LoggerFactory.CreateLogger<Program>();
+                Logger.LogError(ex, "An Error Occured During Appling The Migration");
+            }
+
+            
+            #endregion
+
+
+            #region Configure - Configure the HTTP request pipeline.
+
+
             if (app.Environment.IsDevelopment())
             {
                 app.UseSwagger();
@@ -35,6 +60,7 @@ namespace Talabat.APIs
 
 
             app.MapControllers();
+            #endregion
 
             app.Run();
         }
