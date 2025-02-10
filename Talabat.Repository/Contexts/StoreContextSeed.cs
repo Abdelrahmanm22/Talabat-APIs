@@ -45,7 +45,7 @@ namespace Talabat.Repository.Contexts
             }
 
             ///Seeding Products
-            if (!dbContext.Products.Any()) {
+             if (!dbContext.Products.Any()) {
                 var ProductsData = File.ReadAllText("../Talabat.Repository/DataSeed/products.json");
                 var Products = JsonSerializer.Deserialize<List<Product>>(ProductsData);
 
