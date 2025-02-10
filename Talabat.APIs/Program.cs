@@ -33,17 +33,22 @@ namespace Talabat.APIs
             try
             {
 
-                var DbContext = Services.GetRequiredService<AppDbContext>(); //ASK CLR for Creating Object From DbContext Explicitly
-                await DbContext.Database.MigrateAsync(); //Update - Database
+                var dbContext = Services.GetRequiredService<AppDbContext>(); //ASK CLR for Creating Object From DbContext Explicitly
+                await dbContext.Database.MigrateAsync(); //Update - Database
+                #region Data Seeding
+                await StoreContextSeed.SeedAsync(dbContext);
+
+                #endregion
             }
             catch (Exception ex) {
                 var Logger = LoggerFactory.CreateLogger<Program>();
                 Logger.LogError(ex, "An Error Occured During Appling The Migration");
             }
 
-            
+
             #endregion
 
+            
 
             #region Configure - Configure the HTTP request pipeline.
 
