@@ -85,3 +85,4 @@ D:\My Career\ASP.NET\MyProjects\Talabat.Solution\Talabat.APIs\bin\Debug\net6.0\T
 D:\My Career\ASP.NET\MyProjects\Talabat.Solution\Talabat.APIs\obj\Debug\net6.0\Talabat.APIs.sourcelink.json
 D:\My Career\ASP.NET\MyProjects\Talabat.Solution\Talabat.APIs\bin\Debug\net6.0\AutoMapper.dll
 D:\My Career\ASP.NET\MyProjects\Talabat.Solution\Talabat.APIs\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\My Career\ASP.NET\MyProjects\Talabat.Solution\Talabat.APIs\bin\Debug\net6.0\Talabat.APIs.staticwebassets.runtime.json
