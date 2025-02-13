@@ -23,6 +23,15 @@ namespace Talabat.Repository
                 query = query.Where(Spec.Criteria); //dbContext.Set<T>().Where(P => P.Id == id)
             }
 
+            if(Spec.OrderBy is not null)
+            {
+                query = query.OrderBy(Spec.OrderBy);
+            }
+            if(Spec.OrderByDesc is not null)
+            {
+                query = query.OrderByDescending(Spec.OrderByDesc);
+            }
+
             query = Spec.Includes.Aggregate(query,(CurrentQuery,IncludeExpression)=> CurrentQuery.Include(IncludeExpression)); ///_dbContext.Products.Where(P => P.Id == id).Include(P => P.ProductType).Include(P => P.ProductBrand);
 
             return query;
