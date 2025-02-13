@@ -19,7 +19,7 @@ namespace Talabat.APIs.Controllers
 
         //Get All Brands
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<ProductBrand>>> GetBrands()
+        public async Task<ActionResult<IReadOnlyList<ProductBrand>>> GetBrands()
         {
             var Brands = await _productBrandRepo.GetAllAsync();
             return Ok(Brands);

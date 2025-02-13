@@ -22,11 +22,11 @@ namespace Talabat.APIs.Controllers
         // Get All Products
         [HttpGet]
         //BaseURL/api/Products  ==> Get method
-        public async Task<ActionResult<IEnumerable<Product>>> GetProducts()
+        public async Task<ActionResult<IReadOnlyList<ProductToReturnDto>>> GetProducts()
         {
             var Spec = new ProductWithBrandAndTypeSpecifications();
             var Products = await _productRepo.GetAllWithSpecAsync(Spec);
-            var MappedProducts = _mapper.Map<IEnumerable<Product>, IEnumerable<ProductToReturnDto>>(Products);
+            var MappedProducts = _mapper.Map<IReadOnlyList<Product>, IReadOnlyList<ProductToReturnDto>>(Products);
             return Ok(MappedProducts);
         }
 

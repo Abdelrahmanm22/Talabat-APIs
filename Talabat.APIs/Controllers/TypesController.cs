@@ -15,7 +15,7 @@ namespace Talabat.APIs.Controllers
         }
         //Get All Types
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<ProductType>>> GetTypes()
+        public async Task<ActionResult<IReadOnlyList<ProductType>>> GetTypes()
         {
             var Types = await _productTypeRepo.GetAllAsync();
             return Ok(Types);
