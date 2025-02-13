@@ -11,7 +11,7 @@ namespace Talabat.APIs.Controllers
     {
         public ActionResult Error(int code)
         {
-            return NotFound(new ApiResponse(code,"Route Not Found"));
+            return NotFound(new ApiResponse(code,"End Point Not Found"));
         }
     }
 }

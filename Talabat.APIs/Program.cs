@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Talabat.APIs.Errors;
+using Talabat.APIs.Extensions;
 using Talabat.APIs.Helpers;
 using Talabat.APIs.Middlewares;
 using Talabat.Core.Entities;
@@ -27,31 +28,15 @@ namespace Talabat.APIs
                 Options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
             });
 
-            //builder.Services.AddScoped<IGenericRepository<Product>, GenericRepository<Product>>();
-            //make it generic too
-            builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
-            builder.Services.AddAutoMapper(typeof(MappingProfiles));
 
-            #region validation error
-            builder.Services.Configure<ApiBehaviorOptions>(Options =>
-            {
-                Options.InvalidModelStateResponseFactory = (actionContext) =>
-                {
-                    var errors = actionContext.ModelState
-                                                .Where(p => p.Value.Errors.Count() > 0)
-                                                .SelectMany(p => p.Value.Errors)
-                                                .Select(e=>e.ErrorMessage)
-                                                .ToList();
 
-                    var ValidationErrorResponse = new ApiValidationErrorResponse()
-                    {
-                        Errors = errors
-                    };
-                    return new BadRequestObjectResult(ValidationErrorResponse);
-                };
-            });
-            #endregion
-            ///validation error///////
+
+            ////Cleaning Up Program Class
+            builder.Services.AddApplicationServices();
+            ////Cleaning Up Program Class
+
+
+
 
 
             #endregion
@@ -90,11 +75,12 @@ namespace Talabat.APIs
             if (app.Environment.IsDevelopment())
             {
                 app.UseMiddleware<ExceptionMiddleware>();
-                app.UseSwagger();
-                app.UseSwaggerUI();
+                ////Cleaning Up Program Class
+                app.UseSwaggerMiddlewares();
+                ////Cleaning Up Program Class
             }
 
-            
+
 
             app.UseStatusCodePagesWithReExecute("/errors/{0}");
             app.UseHttpsRedirection();
