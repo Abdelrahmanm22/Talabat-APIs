@@ -16,8 +16,8 @@ namespace Talabat.APIs.Middlewares
             this.looger = looger;
             this.env = env;
         }
-        // InvoceAsync
-        public async Task InvoceAsync(HttpContext context)
+        // InvokeAsync
+        public async Task InvokeAsync(HttpContext context)
         {
             try
             {

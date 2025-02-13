@@ -94,12 +94,13 @@ namespace Talabat.APIs
                 app.UseSwaggerUI();
             }
 
-            app.UseStaticFiles();
+            
 
+            app.UseStatusCodePagesWithReExecute("/errors/{0}");
             app.UseHttpsRedirection();
 
             app.UseAuthorization();
-
+            app.UseStaticFiles();
 
             app.MapControllers();
             #endregion
