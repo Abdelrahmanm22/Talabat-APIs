@@ -14,6 +14,8 @@ namespace Talabat.Core.Specifications
             (!Param.BrandId.HasValue || p.ProductBrandId == Param.BrandId)
             &&
             (!Param.TypeId.HasValue || p.ProductTypeId == Param.TypeId)
+            &&
+            (string.IsNullOrEmpty(Param.Search) || p.Name.ToLower().Contains(Param.Search))
             )
         {
             

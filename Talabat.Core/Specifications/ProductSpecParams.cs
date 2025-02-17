@@ -28,6 +28,15 @@ namespace Talabat.Core.Specifications
             set { pageIndex = value; }
         }
 
+        private string? search;
+
+        public string? Search
+        {
+            get { return search; }
+            set { search = value.ToLower(); }
+        }
+
+
 
     }
 }
