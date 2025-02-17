@@ -25,5 +25,12 @@ namespace Talabat.Core.Specifications
         // Signature of property for ==> [OrderByDesc(P=>P.Name)]
         public Expression<Func<T, object>> OrderByDesc { get; set; }
 
+        // Signature of property for Take
+        public int Take { get; set; }
+
+        // Signature of property for Skip
+        public int Skip { get; set; }
+
+        public bool IsPaginationEnabled { get; set; }
     }
 }

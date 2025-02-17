@@ -32,6 +32,11 @@ namespace Talabat.Repository
                 query = query.OrderByDescending(Spec.OrderByDesc);
             }
 
+            if (Spec.IsPaginationEnabled)
+            {
+                query = query.Skip(Spec.Skip).Take(Spec.Take);
+            }
+
             query = Spec.Includes.Aggregate(query,(CurrentQuery,IncludeExpression)=> CurrentQuery.Include(IncludeExpression)); ///_dbContext.Products.Where(P => P.Id == id).Include(P => P.ProductType).Include(P => P.ProductBrand);
 
             return query;

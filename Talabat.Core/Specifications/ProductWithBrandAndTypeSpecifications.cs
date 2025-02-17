@@ -34,6 +34,14 @@ namespace Talabat.Core.Specifications
                         break;
                 }
             } 
+
+
+            //if we have 100 products 
+            //and page size = 10 
+            //and page index = 5
+
+            //so=> Skip(40) and take (10)
+            ApplyPagination(Param.PageSize*(Param.PageIndex-1), Param.PageSize);
         }
 
         //CTOR is Used for get product by id
