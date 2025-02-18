@@ -88,3 +88,8 @@ D:\My Career\ASP.NET\MyProjects\Talabat.Solution\Talabat.APIs\bin\Debug\net6.0\A
 D:\My Career\ASP.NET\MyProjects\Talabat.Solution\Talabat.APIs\bin\Debug\net6.0\Talabat.APIs.staticwebassets.runtime.json
 D:\My Career\ASP.NET\MyProjects\Talabat.Solution\Talabat.APIs\bin\Debug\net6.0\Pipelines.Sockets.Unofficial.dll
 D:\My Career\ASP.NET\MyProjects\Talabat.Solution\Talabat.APIs\bin\Debug\net6.0\StackExchange.Redis.dll
+D:\My Career\ASP.NET\MyProjects\Talabat.Solution\Talabat.APIs\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\My Career\ASP.NET\MyProjects\Talabat.Solution\Talabat.APIs\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\My Career\ASP.NET\MyProjects\Talabat.Solution\Talabat.APIs\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\My Career\ASP.NET\MyProjects\Talabat.Solution\Talabat.APIs\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+D:\My Career\ASP.NET\MyProjects\Talabat.Solution\Talabat.APIs\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
