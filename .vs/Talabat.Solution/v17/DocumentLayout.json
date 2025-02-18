@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{C0322433-E242-4495-B751-F3B4382682FF}|Talabat.APIs\\Talabat.APIs.csproj|solutionrelative:talabat.apis\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C0322433-E242-4495-B751-F3B4382682FF}|Talabat.APIs\\Talabat.APIs.csproj|d:\\my career\\asp.net\\myprojects\\talabat.solution\\talabat.apis\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0322433-E242-4495-B751-F3B4382682FF}|Talabat.APIs\\Talabat.APIs.csproj|solutionrelative:talabat.apis\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C0322433-E242-4495-B751-F3B4382682FF}|Talabat.APIs\\Talabat.APIs.csproj|d:\\my career\\asp.net\\myprojects\\talabat.solution\\talabat.apis\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C0322433-E242-4495-B751-F3B4382682FF}|Talabat.APIs\\Talabat.APIs.csproj|solutionrelative:talabat.apis\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -22,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -31,19 +35,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "D:\\My Career\\ASP.NET\\MyProjects\\Talabat.Solution\\Talabat.APIs\\DTOs\\LoginDto.cs",
+              "RelativeDocumentMoniker": "Talabat.APIs\\DTOs\\LoginDto.cs",
+              "ToolTip": "D:\\My Career\\ASP.NET\\MyProjects\\Talabat.Solution\\Talabat.APIs\\DTOs\\LoginDto.cs",
+              "RelativeToolTip": "Talabat.APIs\\DTOs\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T23:30:10.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "RegisterDto.cs",
               "DocumentMoniker": "D:\\My Career\\ASP.NET\\MyProjects\\Talabat.Solution\\Talabat.APIs\\DTOs\\RegisterDto.cs",
               "RelativeDocumentMoniker": "Talabat.APIs\\DTOs\\RegisterDto.cs",
               "ToolTip": "D:\\My Career\\ASP.NET\\MyProjects\\Talabat.Solution\\Talabat.APIs\\DTOs\\RegisterDto.cs",
               "RelativeToolTip": "Talabat.APIs\\DTOs\\RegisterDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-18T23:11:53.054Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "UserDto.cs",
               "DocumentMoniker": "D:\\My Career\\ASP.NET\\MyProjects\\Talabat.Solution\\Talabat.APIs\\DTOs\\UserDto.cs",
               "RelativeDocumentMoniker": "Talabat.APIs\\DTOs\\UserDto.cs",
@@ -62,7 +79,7 @@
               "RelativeDocumentMoniker": "Talabat.APIs\\Controllers\\AccountsController.cs",
               "ToolTip": "D:\\My Career\\ASP.NET\\MyProjects\\Talabat.Solution\\Talabat.APIs\\Controllers\\AccountsController.cs",
               "RelativeToolTip": "Talabat.APIs\\Controllers\\AccountsController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAgwCcAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAACsAAAAAAAAAAAAowD0AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-18T23:07:50.117Z",
               "EditorCaption": ""
