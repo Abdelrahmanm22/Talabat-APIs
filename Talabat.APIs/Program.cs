@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using StackExchange.Redis;
@@ -6,6 +7,7 @@ using Talabat.APIs.Extensions;
 using Talabat.APIs.Helpers;
 using Talabat.APIs.Middlewares;
 using Talabat.Core.Entities;
+using Talabat.Core.Entities.Identity;
 using Talabat.Core.Repositories;
 using Talabat.Repository;
 using Talabat.Repository.Contexts;
@@ -42,6 +44,7 @@ namespace Talabat.APIs
 
             ////Cleaning Up Program Class
             builder.Services.AddApplicationServices();
+            builder.Services.AddIdentityServices();
             ////Cleaning Up Program Class
 
 
@@ -71,6 +74,7 @@ namespace Talabat.APIs
 
                 #region Data Seeding
                 await StoreContextSeed.SeedAsync(dbContext);
+                await AppIdentityDbContextSeed.SeedUserAsync(Services.GetRequiredService<UserManager<AppUser>>());
                 #endregion
             }
             catch (Exception ex) {
