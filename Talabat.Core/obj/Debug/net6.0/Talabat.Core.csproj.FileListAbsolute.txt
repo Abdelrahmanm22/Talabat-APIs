@@ -10,3 +10,4 @@ D:\My Career\ASP.NET\MyProjects\Talabat.Solution\Talabat.Core\obj\Debug\net6.0\T
 D:\My Career\ASP.NET\MyProjects\Talabat.Solution\Talabat.Core\obj\Debug\net6.0\refint\Talabat.Core.dll
 D:\My Career\ASP.NET\MyProjects\Talabat.Solution\Talabat.Core\obj\Debug\net6.0\Talabat.Core.pdb
 D:\My Career\ASP.NET\MyProjects\Talabat.Solution\Talabat.Core\obj\Debug\net6.0\ref\Talabat.Core.dll
+D:\My Career\ASP.NET\MyProjects\Talabat.Solution\Talabat.Core\obj\Debug\net6.0\Talabat.Core.csproj.AssemblyReference.cache
