@@ -14,6 +14,7 @@ namespace Talabat.APIs.Extensions
             //make it generic too
             Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
             Services.AddAutoMapper(typeof(MappingProfiles));
+            Services.AddScoped(typeof(IBasketRepository), typeof(BasketRepository));
 
             #region validation error
             Services.Configure<ApiBehaviorOptions>(Options =>
