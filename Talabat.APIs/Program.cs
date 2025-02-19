@@ -44,7 +44,7 @@ namespace Talabat.APIs
 
             ////Cleaning Up Program Class
             builder.Services.AddApplicationServices();
-            builder.Services.AddIdentityServices();
+            builder.Services.AddIdentityServices(builder.Configuration);
             ////Cleaning Up Program Class
 
 
@@ -102,10 +102,9 @@ namespace Talabat.APIs
 
             app.UseStatusCodePagesWithReExecute("/errors/{0}");
             app.UseHttpsRedirection();
-
-            app.UseAuthorization();
             app.UseStaticFiles();
-
+            app.UseAuthentication();
+            app.UseAuthorization();
             app.MapControllers();
             #endregion
 

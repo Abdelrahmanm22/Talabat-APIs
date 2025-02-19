@@ -35,8 +35,5 @@ namespace Talabat.Core.Specifications
             get { return search; }
             set { search = value.ToLower(); }
         }
-
-
-
     }
 }

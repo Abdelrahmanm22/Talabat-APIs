@@ -1,4 +1,6 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Talabat.APIs.DTOs;
@@ -21,6 +23,7 @@ namespace Talabat.APIs.Controllers
             _mapper = mapper;
         }
         // Get All Products
+        [Authorize]
         [HttpGet]
         //BaseURL/api/Products  ==> Get method
         public async Task<ActionResult<Pagination<ProductToReturnDto>>> GetProducts([FromQuery]ProductSpecParams Params)
