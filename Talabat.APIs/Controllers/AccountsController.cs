@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using Talabat.APIs.DTOs;
 using Talabat.APIs.Errors;
 using Talabat.Core.Entities.Identity;
+using Talabat.Core.Services;
 
 namespace Talabat.APIs.Controllers
 {
@@ -11,11 +12,13 @@ namespace Talabat.APIs.Controllers
     {
         private readonly UserManager<AppUser> _userManager;
         private readonly SignInManager<AppUser> _signInManager;
+        private readonly ITokenService _tokenService;
 
-        public AccountsController(UserManager<AppUser> userManager,SignInManager<AppUser> signInManager)
+        public AccountsController(UserManager<AppUser> userManager,SignInManager<AppUser> signInManager,ITokenService tokenService)
         {
             this._userManager = userManager;
             this._signInManager = signInManager;
+            this._tokenService = tokenService;
         }
         // Register
         [HttpPost("Register")]
@@ -37,7 +40,7 @@ namespace Talabat.APIs.Controllers
             {
                 DisplayName = User.DisplayName,
                 Email = User.Email,
-                Token = "Fooooo2",
+                Token = await _tokenService.CreateTokenAsync(User,_userManager) ,
             };
             return Ok(ReturnedUser);
         }
@@ -57,10 +60,9 @@ namespace Talabat.APIs.Controllers
             {
                 DisplayName = User.DisplayName,
                 Email = User.Email,
-                Token = "Foooo2",
+                Token = await _tokenService.CreateTokenAsync(User, _userManager),
             };
             return Ok(ReturnedUser); 
-
         }
 
     }

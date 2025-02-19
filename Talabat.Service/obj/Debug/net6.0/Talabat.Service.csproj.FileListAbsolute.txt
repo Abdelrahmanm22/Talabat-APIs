@@ -10,3 +10,7 @@ D:\My Career\ASP.NET\MyProjects\Talabat.Solution\Talabat.Service\obj\Debug\net6.
 D:\My Career\ASP.NET\MyProjects\Talabat.Solution\Talabat.Service\obj\Debug\net6.0\refint\Talabat.Service.dll
 D:\My Career\ASP.NET\MyProjects\Talabat.Solution\Talabat.Service\obj\Debug\net6.0\Talabat.Service.pdb
 D:\My Career\ASP.NET\MyProjects\Talabat.Solution\Talabat.Service\obj\Debug\net6.0\ref\Talabat.Service.dll
+D:\My Career\ASP.NET\MyProjects\Talabat.Solution\Talabat.Service\bin\Debug\net6.0\Talabat.Core.dll
+D:\My Career\ASP.NET\MyProjects\Talabat.Solution\Talabat.Service\bin\Debug\net6.0\Talabat.Core.pdb
+D:\My Career\ASP.NET\MyProjects\Talabat.Solution\Talabat.Service\obj\Debug\net6.0\Talabat.Service.csproj.AssemblyReference.cache
+D:\My Career\ASP.NET\MyProjects\Talabat.Solution\Talabat.Service\obj\Debug\net6.0\Talabat..89B18B2E.Up2Date
