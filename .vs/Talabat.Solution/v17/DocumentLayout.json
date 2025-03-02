@@ -42,8 +42,7 @@
               "RelativeToolTip": "Talabat.Core\\Entities\\Identity\\AppUser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T08:02:27.839Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-02T08:02:27.839Z"
             },
             {
               "$type": "Document",
@@ -55,8 +54,7 @@
               "RelativeToolTip": "Talabat.APIs\\DTOs\\AddressDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T07:59:10.609Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-02T07:59:10.609Z"
             },
             {
               "$type": "Document",
@@ -68,8 +66,7 @@
               "RelativeToolTip": "Talabat.APIs\\Extensions\\UserManagerExtension.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T07:50:42.901Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-02T07:50:42.901Z"
             },
             {
               "$type": "Document",
@@ -79,7 +76,7 @@
               "RelativeDocumentMoniker": "Talabat.APIs\\Controllers\\AccountsController.cs",
               "ToolTip": "D:\\My Career\\ASP.NET\\MyProjects\\Talabat.Solution\\Talabat.APIs\\Controllers\\AccountsController.cs",
               "RelativeToolTip": "Talabat.APIs\\Controllers\\AccountsController.cs",
-              "ViewState": "AgIAAGQAAAAAAAAAAAAlwG8AAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAswDEAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-02T07:38:45.508Z",
               "EditorCaption": ""
