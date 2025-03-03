@@ -38,6 +38,20 @@ namespace Talabat.Repository
             //return await dbContext.Set<T>().Where(P => P.Id == id).Include(P => P.ProductBrand).Include(P => P.ProductType); //I will use specification design pattern
         }
 
+        public async Task AddAsync(T item)
+        {
+            await dbContext.Set<T>().AddAsync(item);
+        }
+
+        public void Update(T item)
+        {
+            dbContext.Set<T>().Update(item);
+        }
+
+        public void Delete(T item)
+        {
+            dbContext.Set<T>().Remove(item);
+        }
 
         #region With Specification
         public async Task<IReadOnlyList<T>> GetAllWithSpecAsync(ISpecifications<T> Spec)
@@ -59,7 +73,7 @@ namespace Talabat.Repository
         {
             return await ApplySpecification(Spec).CountAsync();
         }
-
         #endregion
+
     }
 }

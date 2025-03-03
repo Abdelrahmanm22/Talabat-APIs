@@ -12,7 +12,9 @@ namespace Talabat.Core.Repositories
     {
         Task<IReadOnlyList<T>> GetAllAsync();
         Task<T> GetByIdAsync(int id);
-
+        Task AddAsync (T item);
+        void Update (T item);
+        void Delete (T item);
 
         ////////////////With Specification//////////////////////
         Task<IReadOnlyList<T>> GetAllWithSpecAsync(ISpecifications<T> Spec);
