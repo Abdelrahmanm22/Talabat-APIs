@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "D:\\My Career\\ASP.NET\\MyProjects\\Talabat.Solution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CC2D1462-465D-4BC1-9E16-85061762C719}|Talabat.Service\\Talabat.Service.csproj|d:\\my career\\asp.net\\myprojects\\talabat.solution\\talabat.service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC2D1462-465D-4BC1-9E16-85061762C719}|Talabat.Service\\Talabat.Service.csproj|solutionrelative:talabat.service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C0322433-E242-4495-B751-F3B4382682FF}|Talabat.APIs\\Talabat.APIs.csproj|d:\\my career\\asp.net\\myprojects\\talabat.solution\\talabat.apis\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0322433-E242-4495-B751-F3B4382682FF}|Talabat.APIs\\Talabat.APIs.csproj|solutionrelative:talabat.apis\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9832321-553B-4B94-BAE2-A023B6CE017D}|Talabat.Core\\Talabat.Core.csproj|d:\\my career\\asp.net\\myprojects\\talabat.solution\\talabat.core\\services\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9832321-553B-4B94-BAE2-A023B6CE017D}|Talabat.Core\\Talabat.Core.csproj|solutionrelative:talabat.core\\services\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9832321-553B-4B94-BAE2-A023B6CE017D}|Talabat.Core\\Talabat.Core.csproj|d:\\my career\\asp.net\\myprojects\\talabat.solution\\talabat.core\\services\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9832321-553B-4B94-BAE2-A023B6CE017D}|Talabat.Core\\Talabat.Core.csproj|solutionrelative:talabat.core\\services\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C0322433-E242-4495-B751-F3B4382682FF}|Talabat.APIs\\Talabat.APIs.csproj|d:\\my career\\asp.net\\myprojects\\talabat.solution\\talabat.apis\\dtos\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0322433-E242-4495-B751-F3B4382682FF}|Talabat.APIs\\Talabat.APIs.csproj|solutionrelative:talabat.apis\\dtos\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,41 +26,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "OrderService.cs",
-              "DocumentMoniker": "D:\\My Career\\ASP.NET\\MyProjects\\Talabat.Solution\\Talabat.Service\\OrderService.cs",
-              "RelativeDocumentMoniker": "Talabat.Service\\OrderService.cs",
-              "ToolTip": "D:\\My Career\\ASP.NET\\MyProjects\\Talabat.Solution\\Talabat.Service\\OrderService.cs",
-              "RelativeToolTip": "Talabat.Service\\OrderService.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAApwDIAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T09:48:55.275Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "IOrderService.cs",
-              "DocumentMoniker": "D:\\My Career\\ASP.NET\\MyProjects\\Talabat.Solution\\Talabat.Core\\Services\\IOrderService.cs",
-              "RelativeDocumentMoniker": "Talabat.Core\\Services\\IOrderService.cs",
-              "ToolTip": "D:\\My Career\\ASP.NET\\MyProjects\\Talabat.Solution\\Talabat.Core\\Services\\IOrderService.cs",
-              "RelativeToolTip": "Talabat.Core\\Services\\IOrderService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAATAAAAAAAAAA==",
+              "Title": "OrderDto.cs",
+              "DocumentMoniker": "D:\\My Career\\ASP.NET\\MyProjects\\Talabat.Solution\\Talabat.APIs\\DTOs\\OrderDto.cs",
+              "RelativeDocumentMoniker": "Talabat.APIs\\DTOs\\OrderDto.cs",
+              "ToolTip": "D:\\My Career\\ASP.NET\\MyProjects\\Talabat.Solution\\Talabat.APIs\\DTOs\\OrderDto.cs",
+              "RelativeToolTip": "Talabat.APIs\\DTOs\\OrderDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T09:41:50.654Z",
+              "WhenOpened": "2025-03-03T11:43:48.461Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ITokenService.cs",
-              "DocumentMoniker": "D:\\My Career\\ASP.NET\\MyProjects\\Talabat.Solution\\Talabat.Core\\Services\\ITokenService.cs",
-              "RelativeDocumentMoniker": "Talabat.Core\\Services\\ITokenService.cs",
-              "ToolTip": "D:\\My Career\\ASP.NET\\MyProjects\\Talabat.Solution\\Talabat.Core\\Services\\ITokenService.cs",
-              "RelativeToolTip": "Talabat.Core\\Services\\ITokenService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "D:\\My Career\\ASP.NET\\MyProjects\\Talabat.Solution\\Talabat.APIs\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "Talabat.APIs\\Controllers\\OrdersController.cs",
+              "ToolTip": "D:\\My Career\\ASP.NET\\MyProjects\\Talabat.Solution\\Talabat.APIs\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "Talabat.APIs\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB8AAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T09:41:20.104Z"
+              "WhenOpened": "2025-03-03T11:40:10.296Z",
+              "EditorCaption": ""
             }
           ]
         }
