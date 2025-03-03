@@ -3,24 +3,8 @@
   "WorkspaceRootPath": "D:\\My Career\\ASP.NET\\MyProjects\\Talabat.Solution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B17EDC65-DB15-4313-867D-AD2E325D0D47}|Talabat.Repository\\Talabat.Repository.csproj|d:\\my career\\asp.net\\myprojects\\talabat.solution\\talabat.repository\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B17EDC65-DB15-4313-867D-AD2E325D0D47}|Talabat.Repository\\Talabat.Repository.csproj|solutionrelative:talabat.repository\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9832321-553B-4B94-BAE2-A023B6CE017D}|Talabat.Core\\Talabat.Core.csproj|d:\\my career\\asp.net\\myprojects\\talabat.solution\\talabat.core\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9832321-553B-4B94-BAE2-A023B6CE017D}|Talabat.Core\\Talabat.Core.csproj|solutionrelative:talabat.core\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CC2D1462-465D-4BC1-9E16-85061762C719}|Talabat.Service\\Talabat.Service.csproj|d:\\my career\\asp.net\\myprojects\\talabat.solution\\talabat.service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC2D1462-465D-4BC1-9E16-85061762C719}|Talabat.Service\\Talabat.Service.csproj|solutionrelative:talabat.service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B17EDC65-DB15-4313-867D-AD2E325D0D47}|Talabat.Repository\\Talabat.Repository.csproj|d:\\my career\\asp.net\\myprojects\\talabat.solution\\talabat.repository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B17EDC65-DB15-4313-867D-AD2E325D0D47}|Talabat.Repository\\Talabat.Repository.csproj|solutionrelative:talabat.repository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9832321-553B-4B94-BAE2-A023B6CE017D}|Talabat.Core\\Talabat.Core.csproj|d:\\my career\\asp.net\\myprojects\\talabat.solution\\talabat.core\\repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9832321-553B-4B94-BAE2-A023B6CE017D}|Talabat.Core\\Talabat.Core.csproj|solutionrelative:talabat.core\\repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C9832321-553B-4B94-BAE2-A023B6CE017D}|Talabat.Core\\Talabat.Core.csproj|d:\\my career\\asp.net\\myprojects\\talabat.solution\\talabat.core\\services\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,81 +31,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UnitOfWork.cs",
-              "DocumentMoniker": "D:\\My Career\\ASP.NET\\MyProjects\\Talabat.Solution\\Talabat.Repository\\UnitOfWork.cs",
-              "RelativeDocumentMoniker": "Talabat.Repository\\UnitOfWork.cs",
-              "ToolTip": "D:\\My Career\\ASP.NET\\MyProjects\\Talabat.Solution\\Talabat.Repository\\UnitOfWork.cs",
-              "RelativeToolTip": "Talabat.Repository\\UnitOfWork.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAqwBwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T10:54:03.822Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IUnitOfWork.cs",
-              "DocumentMoniker": "D:\\My Career\\ASP.NET\\MyProjects\\Talabat.Solution\\Talabat.Core\\IUnitOfWork.cs",
-              "RelativeDocumentMoniker": "Talabat.Core\\IUnitOfWork.cs",
-              "ToolTip": "D:\\My Career\\ASP.NET\\MyProjects\\Talabat.Solution\\Talabat.Core\\IUnitOfWork.cs",
-              "RelativeToolTip": "Talabat.Core\\IUnitOfWork.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T10:49:29.483Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GenericRepository.cs",
-              "DocumentMoniker": "D:\\My Career\\ASP.NET\\MyProjects\\Talabat.Solution\\Talabat.Repository\\GenericRepository.cs",
-              "RelativeDocumentMoniker": "Talabat.Repository\\GenericRepository.cs",
-              "ToolTip": "D:\\My Career\\ASP.NET\\MyProjects\\Talabat.Solution\\Talabat.Repository\\GenericRepository.cs",
-              "RelativeToolTip": "Talabat.Repository\\GenericRepository.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAhwDQAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T10:31:01.297Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IGenericRepository.cs",
-              "DocumentMoniker": "D:\\My Career\\ASP.NET\\MyProjects\\Talabat.Solution\\Talabat.Core\\Repositories\\IGenericRepository.cs",
-              "RelativeDocumentMoniker": "Talabat.Core\\Repositories\\IGenericRepository.cs",
-              "ToolTip": "D:\\My Career\\ASP.NET\\MyProjects\\Talabat.Solution\\Talabat.Core\\Repositories\\IGenericRepository.cs",
-              "RelativeToolTip": "Talabat.Core\\Repositories\\IGenericRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T10:29:14.981Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "OrderService.cs",
               "DocumentMoniker": "D:\\My Career\\ASP.NET\\MyProjects\\Talabat.Solution\\Talabat.Service\\OrderService.cs",
               "RelativeDocumentMoniker": "Talabat.Service\\OrderService.cs",
               "ToolTip": "D:\\My Career\\ASP.NET\\MyProjects\\Talabat.Solution\\Talabat.Service\\OrderService.cs",
               "RelativeToolTip": "Talabat.Service\\OrderService.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAApwDQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAApwDIAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-03T09:48:55.275Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "IOrderService.cs",
               "DocumentMoniker": "D:\\My Career\\ASP.NET\\MyProjects\\Talabat.Solution\\Talabat.Core\\Services\\IOrderService.cs",
               "RelativeDocumentMoniker": "Talabat.Core\\Services\\IOrderService.cs",
               "ToolTip": "D:\\My Career\\ASP.NET\\MyProjects\\Talabat.Solution\\Talabat.Core\\Services\\IOrderService.cs",
               "RelativeToolTip": "Talabat.Core\\Services\\IOrderService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T09:41:50.654Z"
+              "WhenOpened": "2025-03-03T09:41:50.654Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "ITokenService.cs",
               "DocumentMoniker": "D:\\My Career\\ASP.NET\\MyProjects\\Talabat.Solution\\Talabat.Core\\Services\\ITokenService.cs",
               "RelativeDocumentMoniker": "Talabat.Core\\Services\\ITokenService.cs",
