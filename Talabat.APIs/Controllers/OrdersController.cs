@@ -34,5 +34,16 @@ namespace Talabat.APIs.Controllers
             if (order is null) return BadRequest(new ApiResponse(400,"There is a problem with your order"));
             return Ok(order);
         }
+
+        [Authorize]
+        [HttpGet]
+        [ProducesResponseType(typeof(IReadOnlyList<Order>), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(ApiResponse), StatusCodes.Status404NotFound)]
+        public async Task<ActionResult<IReadOnlyList<Order>>> GetOrdersForUser() {
+            var BuyerEmail = User.FindFirstValue(ClaimTypes.Email);
+            var Orders = await _orderService.GetOrdersForSpecificUserAsync(BuyerEmail);
+            if (Orders is null) return NotFound(new ApiResponse(404, "There is no Orders for this user"));
+            return Ok(Orders);
+        }
     }
 }
